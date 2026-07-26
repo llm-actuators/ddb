@@ -1,0 +1,38 @@
+/target
+firebase-debug.log
+
+# Android Gradle build artifacts (absorbed agent/ + e2e/)
+agent/build/
+agent/.gradle/
+agent/agent/build/
+agent/local.properties
+e2e/build/
+e2e/.gradle/
+e2e/demo-app/build/
+e2e/demo-app/.gradle/
+e2e/local.properties
+**/.idea/
+*.iml
+
+# JVM heap dumps + other large debug artifacts (never commit)
+*.hprof
+*.dump
+*.heapdump
+
+# Epic M XML demo (mirror of demo-app gitignores)
+e2e/demo-app-xml/build/
+e2e/demo-app-xml/.gradle/
+e2e/demo-app-xml/.kotlin/
+e2e/demo-app-xml/app/build/
+e2e/demo-app-xml/local.properties
+
+# Sweep test artifacts (regenerated each run)
+e2e/tests-xml/results/
+e2e/tests-compose/results/
+*-debug.log
+.DS_Store
+.claude/settings.local.json
+.claude/projects/
+
+# Local app-identifier denylist for scripts/check-guards.sh (real names stay local)
+scripts/guard-identifiers.txt

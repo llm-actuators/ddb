@@ -1,0 +1,6 @@
+# App-specific identifiers that must not leak into the ddb toolchain source.
+# One identifier (or grep -E alternation token) per line; blank lines and '#'
+# comments are ignored. Copy this file to guard-identifiers.txt (gitignored) and
+# fill in your real app / product names so the source guard can catch them.
+myapp
+example

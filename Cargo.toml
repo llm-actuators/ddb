@@ -1,0 +1,21 @@
+[package]
+name = "ddb"
+version = "0.1.0"
+edition = "2024"
+description = "Device Debug Bridge — Android device CLI (root of ddb monorepo: Rust CLI + agent/ Kotlin AAR + e2e/ Gradle demo + semantic-schema submodule; Epic G ddb-v0.4.0)"
+
+[dependencies]
+clap = { version = "4", features = ["derive", "env"] }
+serde = { version = "1", features = ["derive"] }
+toml = "0.8"
+quick-xml = "0.37"
+regex = "1"
+chrono = { version = "0.4", default-features = false, features = ["clock"] }
+serde_json = "1"
+dirs = "6"
+clap_complete = "4"
+serde_yaml = "0.9"
+walkdir = "2"
+semantic-schema = { path = "semantic-schema" }
+image = { version = "0.25", default-features = false, features = ["png"] }
+libc = "0.2"

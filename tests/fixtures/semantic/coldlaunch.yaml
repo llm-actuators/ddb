@@ -1,0 +1,14 @@
+screen: coldlaunch
+platform: generic
+elements:
+- id: splash_logo
+  platform_id: logo_view
+  clickable: false
+  bounds: [340, 800, 740, 1120]
+- id: loading_spinner
+  platform_id: progress
+  clickable: false
+  bounds: [500, 1160, 580, 1240]
+- id: version_label
+  clickable: false
+  bounds: [400, 1800, 680, 1860]

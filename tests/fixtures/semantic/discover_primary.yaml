@@ -1,0 +1,22 @@
+screen: primary
+platform: generic
+elements:
+- id: header_title
+  platform_id: title_view
+  clickable: false
+  bounds: [0, 0, 1080, 120]
+- id: search_button
+  platform_id: search_btn
+  clickable: true
+  bounds: [900, 20, 1060, 100]
+- id: list_item_1
+  platform_id: item_view
+  clickable: true
+  bounds: [0, 140, 1080, 320]
+- id: list_item_2
+  clickable: true
+  bounds: [0, 340, 1080, 520]
+- id: footer_tab
+  platform_id: tab_bar
+  clickable: false
+  bounds: [0, 1800, 1080, 1920]

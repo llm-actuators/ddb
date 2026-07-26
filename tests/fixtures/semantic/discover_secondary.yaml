@@ -1,0 +1,25 @@
+screen: secondary
+platform: generic
+elements:
+- id: nav_back
+  platform_id: back_btn
+  clickable: true
+  bounds: [0, 0, 120, 120]
+- id: title_label
+  platform_id: title
+  clickable: false
+  bounds: [140, 20, 940, 100]
+- id: card_a
+  platform_id: card_view
+  clickable: true
+  bounds: [0, 140, 540, 700]
+- id: card_b
+  platform_id: card_view
+  clickable: true
+  bounds: [540, 140, 1080, 700]
+- id: cta_button
+  clickable: true
+  bounds: [200, 720, 880, 840]
+- id: spacer
+  clickable: false
+  bounds: [0, 840, 1080, 900]
